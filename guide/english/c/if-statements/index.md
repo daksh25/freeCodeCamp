@@ -216,6 +216,7 @@ if(i=4) is true statement and instructions under this will executed
 # Before you go on...
 ## A review
 * 'if' statements check if expression is true, then it run the code within the curly brackets.
+* If the 'if' statement contains only 1 line then you can skip the braces.
 * 'else' can be added to the end of an 'if', and will run only if the previous if(s) statement were false.
 * 'else if' can also be added to the end of an 'if', and will run only if the previous if(s) statement were false.
 * Everything in a computer is represented by numbers, so every comparison in C can be done by treating values like numbers- even true, false, and characters.
