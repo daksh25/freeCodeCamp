@@ -13,7 +13,7 @@ Like Greedy and Dynamic Programming, Divide and Conquer is an algorithmic paradi
 
 Following are some standard algorithms that are Divide and Conquer algorithms.
 
-1) Binary Search is a searching algorithm. In each step, the algorithm compares the input element x with the value of the middle element in array. If the values match, return the index of middle. Otherwise, if x is less than the middle element, then the algorithm recurs for left side of middle element, else recurs for right side of middle element.
+1) Binary Search is a searching algorithm. It can be applied on a sorted sequence only. In each step, the algorithm compares the input element x with the value of the middle element in array. If the values match, return the index of middle. Otherwise, if x is less than the middle element, then the algorithm recurs for left side of middle element, else recurs for right side of middle element. If the element is less than the middle element then the sequence is halved with the middle element the new last element elsewise the middle element becomes the new starting element.
 
 2) Quicksort is a sorting algorithm. The algorithm picks a pivot element, rearranges the array elements in such a way that all elements smaller than the picked pivot element move to left side of pivot, and all greater elements move to right side. Finally, the algorithm recursively sorts the subarrays on left and right of pivot element.
 
